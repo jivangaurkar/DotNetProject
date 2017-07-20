@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tourism", "Tourism\", "{0B5E2CDB-DE47-413B-8D19-B200D4BE4F40}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}|Tourism.BusinessInfo.dll;{15626EDF-92E9-4F02-B069-570D89CFE417}|Tourism.DataAccess.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Tourism"
+		Debug.AspNetCompiler.PhysicalPath = "Tourism\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Tourism\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Tourism"
+		Release.AspNetCompiler.PhysicalPath = "Tourism\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Tourism\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "31561"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourism.BusinessInfo", "Tourism.BusinessInfo\Tourism.BusinessInfo.csproj", "{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourism.DataAccess", "Tourism.DataAccess\Tourism.DataAccess.csproj", "{15626EDF-92E9-4F02-B069-570D89CFE417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B5E2CDB-DE47-413B-8D19-B200D4BE4F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5E2CDB-DE47-413B-8D19-B200D4BE4F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5E2CDB-DE47-413B-8D19-B200D4BE4F40}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5E2CDB-DE47-413B-8D19-B200D4BE4F40}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8287E75-6779-47F9-9C2E-BEE90C4A8E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15626EDF-92E9-4F02-B069-570D89CFE417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15626EDF-92E9-4F02-B069-570D89CFE417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15626EDF-92E9-4F02-B069-570D89CFE417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15626EDF-92E9-4F02-B069-570D89CFE417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

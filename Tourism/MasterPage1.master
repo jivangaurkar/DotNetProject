@@ -1,0 +1,138 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs"
+    Inherits="MasterPage1" %>
+    <%-- * Sample Project Created for Freshers or Junior Developers.
+ * Developed by Vasu Ravuri, Please look at below link for more details
+ * http://dotnettrainer.wordpress.com/ or http://onlinetrainingdotnet.com
+ --%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head >
+    <title>UK Tourist Guide</title>
+    <link rel="stylesheet" href="ct.css" type="text/css" />
+</head>
+<body >
+    <form id="form1" runat="server">
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td style="height: 557px">
+                    <table width="100%" cellpadding="0" cellspacing="0" background="img/m20.gif">
+                        <tr>
+                            <td align="right" colspan="2">
+                                <img src="img/Tourist.gif" width="267" height="37" /></td>
+                        </tr>
+                        <tr>
+                            <td background="img/orange.gif" colspan="2">
+                                <img src="img/orange.gif" width="175" height="38" /><img src="img/orange.gif" width="85"
+                                    height="38" /><a href="Home.aspx"><img src="img/m06.gif" width="89" height="38" border="0" /></a>&nbsp;&nbsp;&nbsp;<a
+                                        href="travel.aspx"><img src="img/m05.gif" width="90" height="38" border="0" /></a>&nbsp;&nbsp;&nbsp;<a href="Tours.aspx"><img
+                                            src="img/m07.gif" width="82" height="38" border="0"></a><img src="img/orange.gif" width="12" height="38" /><a href="Galery.aspx"><img
+                                                src="img/m08.gif" width="92" height="38" border="0"></a><a href="ViewLocation.aspx?Type=Public"><img src="img/orange.gif" width="18" height="38" /><img
+                                                src="img/locations.GIF" width="115" height="38" border="0"></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" valign="top">
+                                <img src="img/graphic_londonbridge.jpg" /><img src="img/m20.gif" width="50" height="80" /><img
+                                    src="img/m11.jpg" width="760" height="100" /></td>
+                        </tr>
+                        <tr>
+                            <td width="20%" valign="top">
+                                <br />
+                                <asp:Button ID="btnAddCust" runat="server" Text="Add Customer" CssClass="button2"
+                                    OnClick="btnAddCust_Click" />
+                                <asp:Button ID="btnAddLoc" runat="server" Text="Add Location" CssClass="button2"
+                                    OnClick="btnAddLoc_Click" />
+                                <asp:Button ID="btnAddGuide" runat="server" Text="Add Guide" CssClass="button2" OnClick="btnAddGuide_Click" />
+                                <asp:Button ID="btnVEditCust" runat="server" Text="View/Edit Customer" CssClass="button2"
+                                    OnClick="btnVEditCust_Click" />
+                                <asp:Button ID="btnVEditLoc" runat="server" Text="View/Edit Location" CssClass="button2"
+                                    OnClick="btnVEditLoc_Click" />
+                                <asp:Button ID="btnVEditGuide" runat="server" Text="View/Edit Guide" CssClass="button2"
+                                    OnClick="btnVEditGuide_Click" />
+                                <%-- <a href="AddLocation.aspx" style="color: Maroon; font-weight: bold; font-size: small;
+                                    font-family: Arial">Add Location</a> <a href="AddGuide.aspx" style="color: Maroon;
+                                        font-weight: bold; font-size: small; font-family: Arial">Add Guide</a>--%>
+                            </td>
+                            <td width="80%" height="300" valign="top" background="img/m20.gif">
+                                <div>
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table width="100%" background="img/m20.gif">
+                                    <tr>
+                                        <td width="100%" align="center" background="img/m20.gif">
+                                            <a href="Home.aspx" style="color: Maroon; font-weight: bold; font-size: small; font-family: Arial">
+                                                Home</a>&nbsp;&nbsp;<a href="#" style="color: Maroon; font-weight: bold; font-size: small;
+                                                    font-family: Arial">About us</a>&nbsp;&nbsp;<a href="#" style="color: Maroon; font-weight: bold;
+                                                        font-size: small; font-family: Arial">Contact us</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" colspan="3">
+                                            All copy rights reserved © 2009
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" width="100%" background="img/m20.gif">
+                            </td>
+                        </tr>
+                        <%--<tr>
+                        <td>
+                            <img src="img/m13.jpg" width="260" height="102" /><img src="img/m14.gif" width="500"
+                                height="102" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <img src="img/m15.jpg" width="260" height="117"></td>
+                                    <td>
+                                        <img src="img/m18.jpg" width="17" height="117"><img src="img/m17.jpg" width="102"
+                                            height="117"><img src="img/m18.jpg" width="17" height="117"></td>
+                                    <td valign="top">
+                                        <img src="img/m19.gif" width="364" height="16"><br>
+                                        The black sea and the Sea of Marmara shoulder the city and are linked by the Bosphorous
+                                        Straits , one of the busiest and romantic waterways in the world. Fantastic bargains
+                                        to anyone prepared to enjoy a glass of Turkish whilst haggling with some of the
+                                        worlds best salespeople.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/m21.jpg" width="260" height="10"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td>
+                                        <img src="img/m23.jpg" width="260" height="175"></td>
+                                    <td valign="top">
+                                        <img src="img/m18.jpg" width="17" height="151"><img src="img/m25.jpg" width="102"
+                                            height="151"><img src="img/m18.jpg" width="17" height="151"></td>
+                                    <td valign="top">
+                                        <img src="img/m27.gif" width="364" height="22"><br>
+                                        The black sea and the Sea of Marmara shoulder the city and are linked by the Bosphorous
+                                        Straits , one of the busiest and romantic waterways in the world. Fantastic bargains
+                                        to anyone prepared to enjoy a glass of Turkish whilst haggling with some of the
+                                        worlds best salespeople.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>--%>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

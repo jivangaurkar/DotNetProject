@@ -1,0 +1,70 @@
+﻿body
+{
+	background-color: #83A3D6;
+	background-repeat: repeat-y;
+}
+
+.to
+{
+	background-image: url(img/bg1.gif);
+	background-repeat: repeat-x;
+	vertical-align: top;
+}
+
+td
+{
+	font-family: Veranda, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+}
+link
+{
+	color: Maroon;
+	font-weight: bold;
+	font-size: small;
+}
+.txtborder
+{
+	font-family: Arial;
+	border-bottom-color: Black;
+	border-color: Red;
+}
+td1
+{
+	font-family: Arial;
+	font-size: 22px;
+	color: #ffffff;
+}
+.button1
+{
+	background-color: ActiveBorder;
+	font-family: Arial;
+}
+.button2
+{
+	background-color: ActiveBorder;
+	font-family: Arial;
+	height: 22px;
+	width: 150px;
+	color: Navy;
+	border: 1px solid #224F7F;
+}
+.fontgreen
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #006600;
+	font-weight: bold;
+}
+.fontblack
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+itemStyle
+{
+	color: Black;
+	font-size: medium;
+}
